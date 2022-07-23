@@ -9,6 +9,6 @@ contract counter{
     }
 
     function dec() external {
-        count+=1;
+        count-=1;
     }
 }
